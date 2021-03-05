@@ -1,17 +1,19 @@
 //supprimer une card dans l'api
 
 document.querySelector(".delete").addEventListener("click", async () => {
-    const inputDelete = document.querySelector(".nameDelete");
+    console.log("ok")
+    //const inputDelete = document.querySelector(".nameDelete");
     
-    const nameDelete = +inputDelete.value;
+    // const nameDelete = +inputDelete.value;
 
-        console.log(nameDelete)
-        console.log(inputDelete.value)
+    //     console.log(nameDelete)
+    //     console.log(inputDelete.value)
 
-        // if (isNaN(id) || id === 0) {
-        //     console.error("Invalid id!");
-        //     return;
-        // }
+        /*
+        if (isNaN(id) || id === 0) {
+            console.error("Invalid id!");
+            return;
+        } */
 
         // try {
         //     const response = await fetch(`https://character-database.becode.xyz/characters`, {
