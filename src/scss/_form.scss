@@ -1,0 +1,36 @@
+.formAdd{
+    border: double 10px brown;
+    width: 80%;
+    max-width: 800px;
+
+    form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }   
+}
+
+label{
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    background-color: rgba(211, 211, 211, 0.74);
+    width: 80%;
+    border-radius: 10px;
+    min-height: 3rem;
+    display: block;
+    margin: auto;
+}
+
+#formAdd{
+    background-color: brown;
+    width: 200px;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 1100;
+    letter-spacing: .15rem;
+    text-align: center;
+}
+

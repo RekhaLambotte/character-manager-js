@@ -1,0 +1,22 @@
+.card{
+    width: 300px;
+    border: double 6px black;
+    border-radius: 10px;
+
+    .paragraph{
+        text-align: justify;
+    }
+}
+
+.btnCard{
+    width: 110px;
+}
+
+#add{
+    background-color: brown;
+    width: 150px;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: .2rem;
+}
